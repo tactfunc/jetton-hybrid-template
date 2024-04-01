@@ -21,7 +21,6 @@ message(0x0000015) MintMessage {
 }
 
 contract Minter {
-
     owner: Address;
     jettonRootCode: Cell;
     index: Int as uint32 = 0;
